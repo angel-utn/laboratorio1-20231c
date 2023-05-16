@@ -21,7 +21,7 @@ int main() {
    
    /// PUNTO C
    int pc_cantidad;
-   bool pc_trabajoM, pc_trabjoT, pc_trabajoN;
+   bool pc_trabajoM, pc_trabajoT, pc_trabajoN;
    
    pc_cantidad = 0;
    
@@ -41,7 +41,7 @@ int main() {
       ///inicializo cosas del grupo (Enfermero)
       pa_suma = pa_cantidad = 0;
       
-      pc_trabajoM = pc_trabajoN = pc_trabjoT = false;
+      pc_trabajoM = pc_trabajoN = pc_trabajoT = false;
       
       cout << "Ingrese numero de turno:";
       cin >> turno;
@@ -106,7 +106,7 @@ int main() {
       }
       
       /// Punto C
-      if(pc_trabajoM && pc_trabajoN && pc_trabjoT){
+      if(pc_trabajoM && pc_trabajoN && pc_trabajoT){
          pc_cantidad++;   
       }
       

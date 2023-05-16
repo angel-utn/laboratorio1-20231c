@@ -69,7 +69,7 @@ int main() {
       cout << "A) La cantidad de localidades es: "<< pa_cantidad << endl;
       
       if(pc_inversionTotal > 100){
-         pc_cantidad++
+         pc_cantidad++;
       }
    }
    
