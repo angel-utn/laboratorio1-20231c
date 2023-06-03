@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1685807231 source:d:\desarrollo\utn\laboratorio1-20231c\semana 12\sabado\naipes\funciones.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"funciones.h"
+
+1685806564 d:\desarrollo\utn\laboratorio1-20231c\semana 12\sabado\naipes\funciones.h
+	<string>
+
+1685807103 source:d:\desarrollo\utn\laboratorio1-20231c\semana 12\sabado\naipes\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"funciones.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1685800146 source:d:\desarrollo\utn\laboratorio1-20231c\semana 12\sabado\funciones\matematica.cpp
+	<iostream>
+	<string>
+	"matematica.h"
+
+1685801300 d:\desarrollo\utn\laboratorio1-20231c\semana 12\sabado\funciones\matematica.h
+	<string>
+
+1685800314 source:d:\desarrollo\utn\laboratorio1-20231c\semana 12\sabado\funciones\main.cpp
+	<iostream>
+	"matematica.h"
+
