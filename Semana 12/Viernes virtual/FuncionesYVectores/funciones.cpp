@@ -1,8 +1,9 @@
 #include <iostream>
+#include "funciones.h"
 
 using namespace std;
 
-//pedirNumero recibe un par·metro por referencia
+//pedirNumero recibe un par√°metro por referencia
 void pedirNumero(int &num)
 {
     //cout << num << endl;
@@ -11,8 +12,8 @@ void pedirNumero(int &num)
     cin >> num;
 }
 
-//cargarVector recibe el primer par·metro por direcciÛn y el segundo por valor
-//carga el vector con 6 valores enteros aleatorios que est·n en el rango de 1 a 6 (ambos inclusive)
+//cargarVector recibe el primer par√°metro por direcci√≥n y el segundo por valor
+//carga el vector con 6 valores enteros aleatorios que est√°n en el rango de 1 a 6 (ambos inclusive)
 void cargarVector(int v[], int tam)
 {
     int i;
@@ -22,7 +23,7 @@ void cargarVector(int v[], int tam)
     }
 }
 
-//mostrarVector recibe el primer par·metro por direcciÛn y el segundo por valor
+//mostrarVector recibe el primer par√°metro por direcci√≥n y el segundo por valor
 void mostrarVector(int v[], int tam)
 {
     int i;
@@ -32,7 +33,7 @@ void mostrarVector(int v[], int tam)
     }
 }
 
-//buscarElementoEnVector recibe el primer par·metro por direcciÛn, el segundo par·metro por valor y el tercer par·metro por valor
+//buscarElementoEnVector recibe el primer par√°metro por direcci√≥n, el segundo par√°metro por valor y el tercer par√°metro por valor
 bool buscarElementoEnVector(int vec[], int tam, int num)
 {
     int i;
@@ -65,11 +66,11 @@ int buscarPosicionEnVector(int vec[], int tam, int num)
 
     return pos;
     //cout << "hola gente" << endl; --> esto nunca se ejecuta
-//NOTA: el RETURN cumple 2 funciones: retornar un valor/terminar la ejecuciÛn de la funciÛn
-//toda instrucciÛn que estÈ despuÈs de un RETURN, no se ejecuta
+//NOTA: el RETURN cumple 2 funciones: retornar un valor/terminar la ejecuci√≥n de la funci√≥n
+//toda instrucci√≥n que est√© despu√©s de un RETURN, no se ejecuta
 }
 
-//ponerEnCeroMatriz recibe el primer par·metro por direcciÛn y el segundo por valor
+//ponerEnCeroMatriz recibe el primer par√°metro por direcci√≥n y el segundo por valor
 void ponerEnCeroMatriz(int mat[][6], int tam){
   int i, j;
 
@@ -80,7 +81,7 @@ void ponerEnCeroMatriz(int mat[][6], int tam){
   }
 }
 
-//mostrarMatriz recibe el primer par·metro por direcciÛn y el segundo por valor
+//mostrarMatriz recibe el primer par√°metro por direcci√≥n y el segundo por valor
 void mostrarMatriz(int mat[][6], int tam){
   int i, j;
 
